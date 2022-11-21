@@ -5,13 +5,14 @@
   }
   
 body {
-    background-color: #d1cfcf;
+    background-color: #ECEBFA;
     display: flex;
     justify-content: center;
 }
   
 .events {
-    margin-top: 30px;
+    margin: 40px 0px;
+
 }
 
 .events-title {
@@ -32,6 +33,37 @@ body {
     background-color: rgba(255, 255, 255, 1);
 }
 
+.group-2 {
+    width: 1047px;
+    height: 173px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2.5px 4px 1px rgba(0, 0, 0, 0.35);
+}
+
+.group-3 {
+    width: 1047px;
+    height: 173px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.group-4 {
+    width: 1047px;
+    height: 173px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
 .date {
     top: 20px;
     left: 20px;
@@ -41,6 +73,39 @@ body {
     border-radius: 10px;
     justify-content: flex-start;
     background-color: rgba(236, 239, 248, 1);
+}
+
+.date-2 {
+    top: 20px;
+    left: 20px;
+    width: 152px;
+    height: 133px;
+    position: absolute;
+    border-radius: 10px;
+    justify-content: flex-start;
+    background-color: #F8ECF8;
+}
+
+.date-3 {
+    top: 20px;
+    left: 20px;
+    width: 152px;
+    height: 133px;
+    position: absolute;
+    border-radius: 10px;
+    justify-content: flex-start;
+    background-color: #F8ECEC;
+}
+
+.date-4 {
+    top: 20px;
+    left: 20px;
+    width: 152px;
+    height: 133px;
+    position: absolute;
+    border-radius: 10px;
+    justify-content: flex-start;
+    background-color:#EEF8EC;
 }
 
 .day {
