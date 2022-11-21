@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+body {
+    background-color: #d1cfcf;
+    display: flex;
+    justify-content: center;
+}
+  
+.events {
+    margin-top: 30px;
+}
+
+.events-title {
+    color: rgba(27, 35, 65, 1);
+    font-size: 36px;
+    text-align: left;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+  
+.group {
+    width: 1047px;
+    height: 173px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.date {
+    top: 20px;
+    left: 20px;
+    width: 152px;
+    height: 133px;
+    position: absolute;
+    border-radius: 10px;
+    justify-content: flex-start;
+    background-color: rgba(236, 239, 248, 1);
+}
+
+.day {
+    top: 30px;
+    left: 50px;
+    color: rgba(27, 35, 65, 1);
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hour {
+    top: 58px;
+    left: 30px;
+    color: rgba(27, 35, 65, 1);
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.group-title {
+    top: 40px;
+    left: 202px;
+    color: rgba(27, 35, 65, 1);
+    position: absolute;
+    font-size: 26px;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+
+.group-info {
+    top: 87px;
+    left: 205px;
+    color: rgba(0, 0, 0, 1);
+    width: 524px;
+    position: absolute;
+    font-size: 18px;
+    font-family: IBM Plex Sans;
+}
+
+.add-calendar {
+    top: 40px;
+    left: 834px;
+    display: flex;
+    padding: 16px;
+    position: absolute;
+    align-items: center;
+    border-color: transparent;
+}
+
+.add-calendar-text {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.group-day {
+    top: 30px;
+    left: 30px;
+    color: rgba(27, 35, 65, 1);
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.add-calendar-selected {
+    top: 40px;
+    left: 834px;
+    display: flex;
+    padding: 16px;
+    position: absolute;
+    align-items: center;
+    border-color: transparent;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 1);
+}
+  
+.add-calendar-black {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    margin-left: 10px;
+}
